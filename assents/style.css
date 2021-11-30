@@ -1,0 +1,36 @@
+:root{
+    --backMain:#FF3A3A;
+    --darkMain:#2c2c2c;
+}
+
+/* //color */
+.bg-main-dark{
+    background-color:var(--darkMain);
+}
+
+.btn-pink{
+    background-color: var(--backMain) 
+}
+.btn-pink:hover{
+    background-color: #e01e1e;
+    color:white !important;
+
+}
+
+.btn-orange{
+    background-color: orange 
+}
+.btn-orange:hover{
+    background-color: rgb(252, 179, 44) 
+}
+
+/* general */
+body{
+    height:100vh;
+    background-color: var(--backMain) 
+}
+
+.operator{
+    background-color:transparent;
+    color:var(--backMain) ;
+}

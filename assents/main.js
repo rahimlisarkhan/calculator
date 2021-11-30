@@ -20,12 +20,18 @@ $(document).ready(() => {
         }
 
         numberCount(num) {
+            
+            if(this.resultNum){
+                return
+            }
+
             if (!this.nextNum) {
                 this.firstNum += num
                 this.elementFirstNum.fadeIn()
                 this.elementFirstNum.html(this.firstNum)
                 return
             }
+
 
             this.secondNum += num
             this.elementSecondNum.fadeIn()
